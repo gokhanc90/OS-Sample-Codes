@@ -43,7 +43,7 @@ int main(void)
     int i = 0,err,createdThreadCount=0;
 	srand(time(NULL));   // should only be called once
 
-	sem_init(&sem,0,0);
+	sem_init(&sem,0,3);
 
      for(i=0;i<N;i++){
         pthread_create(&(tid[i]), NULL, &doSomeThing, NULL);
