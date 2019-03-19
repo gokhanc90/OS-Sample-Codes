@@ -2,7 +2,13 @@
 ### To compile the codes
 
 - gcc -o thread thread.c -pthread
+
+Run: ./thread
+
 - gcc -o MutexSimple MutexSimple.c -pthread
+
+Run:  ./MutexSimple
+
 - gcc -o MutexandWithoutMutex MutexandWithoutMutex.c -pthread
 - gcc -o pipe pipe.c
 - gcc -o ProcessCreation ProcessCreation.c
